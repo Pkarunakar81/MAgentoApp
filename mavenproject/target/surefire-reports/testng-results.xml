@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="MagentoTest" duration-ms="100" started-at="2019-01-22T08:20:11Z" finished-at="2019-01-22T08:20:11Z">
+  <suite name="MagentoTest" duration-ms="94" started-at="2019-01-22T09:42:06Z" finished-at="2019-01-22T09:42:06Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="100" started-at="2019-01-22T08:20:11Z" finished-at="2019-01-22T08:20:11Z">
+    <test name="Command line test" duration-ms="94" started-at="2019-01-22T09:42:06Z" finished-at="2019-01-22T09:42:06Z">
       <class name="MagentoTest">
-        <test-method status="FAIL" signature="magento()[pri:0, instance:MagentoTest@2d6e8792]" name="magento" duration-ms="47" started-at="2019-01-22T08:20:11Z" finished-at="2019-01-22T08:20:11Z">
+        <test-method status="FAIL" signature="magento()[pri:0, instance:MagentoTest@2d6e8792]" name="magento" duration-ms="32" started-at="2019-01-22T09:42:06Z" finished-at="2019-01-22T09:42:06Z">
           <exception class="java.lang.NoClassDefFoundError">
             <message>
               <![CDATA[com/google/common/collect/ImmutableMap]]>
