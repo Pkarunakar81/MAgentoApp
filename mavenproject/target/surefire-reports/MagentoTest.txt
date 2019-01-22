@@ -1,0 +1,18 @@
+-------------------------------------------------------------------------------
+Test set: MagentoTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.089 sec <<< FAILURE!
+magento(MagentoTest)  Time elapsed: 0.059 sec  <<< FAILURE!
+java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
+	at org.openqa.selenium.remote.service.DriverService$Builder.<init>(DriverService.java:250)
+	at org.openqa.selenium.chrome.ChromeDriverService$Builder.<init>(ChromeDriverService.java:101)
+	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+	at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+	at MagentoTest.magento(MagentoTest.java:15)
+Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableMap
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 39 more
+
