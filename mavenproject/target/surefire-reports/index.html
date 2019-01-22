@@ -129,17 +129,14 @@
                   </a> <!-- magento -->
                   <span class="method-name">magento</span>
                   <div class="stack-trace">java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
-	at org.openqa.selenium.remote.service.DriverService$Builder.&lt;init&gt;(DriverService.java:250)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.&lt;init&gt;(ChromeDriverService.java:101)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:123)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;clinit&gt;(FirefoxDriver.java:108)
 	at MagentoTest.magento(MagentoTest.java:15)
 Caused by: java.lang.ClassNotFoundException: com.google.common.collect.ImmutableMap
 	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:349)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
-	... 39 more
+	... 36 more
 ... Removed 34 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
@@ -201,12 +198,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'magento')
 data.setCell(0, 2, 'MagentoTest')
-data.setCell(0, 3, 32);
+data.setCell(0, 3, 94);
 window.suiteTableData['MagentoTest']= { tableData: data, tableDiv: 'times-div-MagentoTest'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 32 ms</span>
+              <span class="suite-total-time">Total running time: 94 ms</span>
               <div id="times-div-MagentoTest">
               </div> <!-- times-div-MagentoTest -->
             </div> <!-- times-div -->

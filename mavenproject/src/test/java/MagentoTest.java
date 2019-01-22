@@ -19,8 +19,8 @@ public class MagentoTest
 		Home h = new Home(driver);
 		h.clickOnMyacc();
 		Login l1 = new Login(driver);
-		l1.typeEmail("nitinmanjunath1991@gmail.com");
-		l1.typePassword("Welcome123");
+		l1.typeEmail("pkarunakar81@gmail.com");
+		l1.typePassword("Pkarunakar81@");
 		l1.clickOnLogin();
 		Logout l2 = new Logout(driver);
 		l2.clickOnLogout();
