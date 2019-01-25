@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: MagentoTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.181 sec <<< FAILURE!
-magento(MagentoTest)  Time elapsed: 0.078 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.937 sec <<< FAILURE!
+magento(MagentoTest)  Time elapsed: 0.063 sec  <<< FAILURE!
 java.lang.NoClassDefFoundError: com/google/common/collect/ImmutableMap
 	at org.openqa.selenium.firefox.FirefoxDriver.<clinit>(FirefoxDriver.java:108)
 	at MagentoTest.magento(MagentoTest.java:15)
